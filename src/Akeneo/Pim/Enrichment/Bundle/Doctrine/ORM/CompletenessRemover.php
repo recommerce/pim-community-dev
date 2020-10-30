@@ -27,7 +27,7 @@ use Doctrine\ORM\EntityManagerInterface;
  */
 class CompletenessRemover implements CompletenessRemoverInterface
 {
-    const BULK_SIZE = 100;
+    const BULK_SIZE = 10;
 
     /** @var ProductQueryBuilderFactoryInterface */
     protected $pqbFactory;

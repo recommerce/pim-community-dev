@@ -44,7 +44,7 @@ class DeleteProductsAndProductModelsTasklet implements TaskletInterface
     protected $filter;
 
     /** @var int */
-    protected $batchSize = 100;
+    protected $batchSize = 10;
 
     /** @var CountProductModelsAndChildrenProductModelsInterface */
     private $countProductModelsAndChildrenProductModels;

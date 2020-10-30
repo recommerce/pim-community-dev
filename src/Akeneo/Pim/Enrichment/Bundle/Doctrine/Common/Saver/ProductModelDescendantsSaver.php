@@ -28,7 +28,7 @@ use Doctrine\Common\Persistence\ObjectManager;
  */
 class ProductModelDescendantsSaver implements SaverInterface
 {
-    private const INDEX_BULK_SIZE = 100;
+    private const INDEX_BULK_SIZE = 10;
 
     /** @var BulkIndexerInterface */
     private $bulkProductModelIndexer;

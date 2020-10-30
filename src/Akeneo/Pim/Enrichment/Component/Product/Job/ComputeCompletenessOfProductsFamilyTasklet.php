@@ -25,7 +25,7 @@ use Akeneo\Tool\Component\StorageUtils\Saver\BulkSaverInterface;
  */
 class ComputeCompletenessOfProductsFamilyTasklet implements TaskletInterface
 {
-    private const BATCH_SIZE = 100;
+    private const BATCH_SIZE = 10;
 
     /** @var StepExecution */
     private $stepExecution;

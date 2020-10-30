@@ -27,7 +27,7 @@ imports:
 # So if you want to change it, do that only for major version and check with the tech team.
 #
 parameters:
-    pim_job_product_batch_size: 100
+    pim_job_product_batch_size: 25 # changed for recommerce purposes
     env(AKENEO_PIM_URL): ''
 
 services:
