@@ -25,7 +25,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 class IndexProductModelCommand extends ContainerAwareCommand
 {
     public const NAME = 'pim:product-model:index';
-    private const BULK_SIZE = 100;
+    private const BULK_SIZE = 10;
 
     /** @var ProductModelRepositoryInterface */
     private $productModelRepository;
